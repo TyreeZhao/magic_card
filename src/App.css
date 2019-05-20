@@ -40,7 +40,7 @@
   display: inline-block;
   width: 100px;
   height: 100px;
-  flex:1;
+  flex: 1;
   margin: auto 500px;
   background-color: #fff;
   border-radius: 5px;
@@ -70,4 +70,13 @@
 }
 .card:hover::after {
   opacity: 1;
+}
+
+.child {
+  /* margin: auto; */
+  /* flex: 1;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  text-shadow: 0 45px 100px rgba(0, 0, 0, 0.4); */
 }
